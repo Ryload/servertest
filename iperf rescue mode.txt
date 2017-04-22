@@ -1,0 +1,32 @@
+root@rescue:~# iperf -c iperf.ovh.net -P5 -r
+------------------------------------------------------------
+Server listening on TCP port 5001
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to iperf.ovh.net, TCP port 5001
+TCP window size: 45.0 KByte (default)
+------------------------------------------------------------
+[  9] local 151.80.109.209 port 52628 connected with 188.165.12.136 port 5001
+[  6] local 151.80.109.209 port 52620 connected with 188.165.12.136 port 5001
+[  7] local 151.80.109.209 port 52622 connected with 188.165.12.136 port 5001
+[  8] local 151.80.109.209 port 52624 connected with 188.165.12.136 port 5001
+[  5] local 151.80.109.209 port 52626 connected with 188.165.12.136 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  6]  0.0-10.0 sec  64.4 MBytes  54.0 Mbits/sec
+[  5]  0.0-10.0 sec  58.1 MBytes  48.7 Mbits/sec
+[  7]  0.0-10.0 sec  68.6 MBytes  57.5 Mbits/sec
+[  9]  0.0-10.0 sec  58.0 MBytes  48.5 Mbits/sec
+[  8]  0.0-10.0 sec  61.4 MBytes  51.3 Mbits/sec
+[SUM]  0.0-10.0 sec   310 MBytes   259 Mbits/sec
+[  4] local 151.80.109.209 port 5001 connected with 188.165.12.136 port 45744
+[  6] local 151.80.109.209 port 5001 connected with 188.165.12.136 port 45745
+[  5] local 151.80.109.209 port 5001 connected with 188.165.12.136 port 45746
+[  7] local 151.80.109.209 port 5001 connected with 188.165.12.136 port 45747
+[  8] local 151.80.109.209 port 5001 connected with 188.165.12.136 port 45748
+[  8]  0.0-10.0 sec  76.9 MBytes  64.3 Mbits/sec
+[  6]  0.0-10.1 sec  91.5 MBytes  76.3 Mbits/sec
+[  7]  0.0-10.1 sec   107 MBytes  89.2 Mbits/sec
+[  4]  0.0-10.1 sec   136 MBytes   113 Mbits/sec
+[  5]  0.0-10.1 sec  94.4 MBytes  78.3 Mbits/sec
+[SUM]  0.0-10.1 sec   505 MBytes   419 Mbits/sec

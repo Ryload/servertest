@@ -1,0 +1,18 @@
+C:\Users\calep>tracert 151.80.109.209
+
+Détermination de l’itinéraire vers ns3018219.ip-151-80-109.eu [151.80.109.209]
+avec un maximum de 30 sauts :
+
+  1    <1 ms    <1 ms    <1 ms  livebox.home [192.168.1.1]
+  2     1 ms     1 ms     1 ms  80.10.237.181
+  3     1 ms     2 ms     1 ms  ae102-0.ncstr201.Schiltigheim.francetelecom.net [193.253.91.46]
+  4     1 ms     1 ms    <1 ms  ae45-0.nrstr101.Schiltigheim.francetelecom.net [193.252.160.69]
+  5     7 ms     7 ms     7 ms  ae48-0.nridf301.Paris.francetelecom.net [193.251.126.206]
+  6     9 ms     9 ms     9 ms  ae44-0.noidf001.Paris.francetelecom.net [193.252.99.102]
+  7     9 ms     9 ms     9 ms  be99-169.th2-1-a9.fr.eu [91.121.131.193]
+  8    15 ms    15 ms    14 ms  be1-1177.sbg-g1-a9.fr.eu [94.23.122.118]
+  9    14 ms    14 ms    14 ms  vl21.sbg-g1-a75.fr.eu [213.186.32.251]
+ 10    16 ms    17 ms    17 ms  be50-5.sbg-4b-a9.routeurs.fr.eu [188.165.9.74]
+ 11    17 ms    16 ms    16 ms  ns3018219.ip-151-80-109.eu [151.80.109.209]
+
+Itinéraire déterminé.
